@@ -17,3 +17,7 @@ read_en	Enables data to be read. <br>
 full	Indicates FIFO is full (no writes allowed). <br>
 empty	Indicates FIFO is empty (no reads allowed). <br>
 reset	Clears the FIFO and resets pointers. <br>
+
+
+My Output:
+<img width="739" alt="image" src="https://github.com/user-attachments/assets/42fd0b68-4c4b-4d48-9b93-7b932a672cf5" />
