@@ -104,7 +104,7 @@ endtask
  if (mem[raddr] == data_out) begin
  
 $display ("===PASS === PASS === PASS === PASS===");
-if (raddr == 16) $finish;
+if (raddr == 15) $finish;
 end
 else begin
 $display ("===FAIL === FAIL === FAIL === FAIL===");
