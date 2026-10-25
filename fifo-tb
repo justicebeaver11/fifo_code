@@ -89,7 +89,7 @@ endtask
  
  always @ (posedge clk) begin
  if (~rst_n) begin
- waddr <= 6'd0;
+ waddr <= 5'd0;
  end
  else if (wr & (~fifo_full)) begin
  mem [waddr] <= data_in;
