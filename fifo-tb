@@ -45,6 +45,12 @@ endsimulation;
 join
 endtask
 
+task clock_generator;
+begin
+    forever #(`DELAY/2) clk = ~clk;
+end
+endtask
+
 task reset_generator;
 begin
 #(`DELAY*2)
